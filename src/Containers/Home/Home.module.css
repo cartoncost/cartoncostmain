@@ -1,0 +1,39 @@
+.Home {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-color: #f8f8f9;
+}
+.Banner {
+  position: absolute;
+  top: 10.2777778vw;
+  left: 24.7222222vw;
+  width: 50.5555555vw;
+  height: 6.25vw;
+  display: flex;
+  align-items: center;
+  text-size-adjust: auto;
+  overflow: hidden;
+  margin-left: 1.6666666vw;
+}
+
+.LeftCaption {
+  position: absolute;
+  width: 38.75vw;
+  height: 15.277777vw;
+  left: 12.5vw;
+  top: 24.51388888vw;
+  overflow: hidden;
+}
+
+.Ads {
+  position: absolute;
+  top: 23.4722222vw;
+  right: 12.5vw;
+  width: 17.361111vw;
+  height: 17.361111vw;
+  align-items: center;
+  text-size-adjust: auto;
+  overflow: hidden;
+}

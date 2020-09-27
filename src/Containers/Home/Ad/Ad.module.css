@@ -1,0 +1,26 @@
+.Button {
+  width: 4.930555555vw;
+  height: 1.66666vw;
+  background: #8c5023;
+  border-radius: 0mm;
+  font-size: 0.83333333vw;
+  padding: 0;
+  margin: 0;
+}
+.para {
+  font-size: 1.11111111vw;
+  margin-top: 0.694444444;
+  margin-left: 0;
+}
+
+.banner {
+  display: flex;
+  width: 89.6%;
+  height: 88%;
+  flex-flow: column;
+  align-items: bottom;
+  justify-content: flex-end;
+  margin-left: 10.4%;
+  margin-bottom: 12%;
+  text-align: left;
+}

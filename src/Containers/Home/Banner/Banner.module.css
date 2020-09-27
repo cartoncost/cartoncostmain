@@ -1,0 +1,18 @@
+.Button {
+  width: 5.69444vw;
+  height: 2.0833333vw;
+  background: #8c5023;
+  border-radius: 0mm;
+  font-size: 0.972222222vw;
+  padding: 0;
+  margin-left: 14px;
+}
+.para {
+  font-size: 1.11111111vw;
+}
+
+.banner {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}

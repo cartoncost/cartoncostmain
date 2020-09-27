@@ -1,0 +1,19 @@
+.Calculation {
+  margin-top: 10.47222222222222vw;
+  margin-left: 0;
+  margin-right: 0;
+}
+.calButton {
+  position: absolute;
+  margin-top: 7.0138888888vw;
+  margin-bottom: 7.0138888888vw;
+  left: 45%;
+}
+.Table {
+  width: 100%;
+  min-width: 800px;
+  background-color: #ffffff;
+  padding-left: 6.597222222vw;
+  padding-right: 6.597222222vw;
+  border-spacing: 1.25vw;
+}

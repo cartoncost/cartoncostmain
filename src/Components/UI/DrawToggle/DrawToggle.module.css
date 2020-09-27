@@ -1,0 +1,25 @@
+.DrawToggle {
+  width: 40px;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.toggler {
+  width: 90%;
+  height: 3px;
+  border-color: white;
+  border-radius: 20%;
+  background-color: #00ad5a;
+}
+
+@media (min-width: 500px) {
+  .DrawToggle {
+    display: none;
+  }
+}

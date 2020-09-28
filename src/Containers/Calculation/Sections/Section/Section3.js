@@ -4,15 +4,6 @@ import React from "react";
 const Section3 = () => {
   return (
     <React.Fragment>
-      <thead>
-        <tr className={classes.dataHead}>
-          <th className={classes.head}>Bs</th>
-          <th className={classes.head}>Length (mm)</th>
-          <th className={classes.head}>Width (mm)</th>
-          <th className={classes.head}>Height (mm)</th>
-          <th className={classes.head}>Ply</th>
-        </tr>
-      </thead>
       <tbody>
         <tr className={classes.dataRow}>
           <td className={classes.data}>
@@ -29,6 +20,9 @@ const Section3 = () => {
           </td>
           <td className={classes.data}>
             <p className={classes.tableData}>1</p>
+          </td>
+          <td className={classes.rdata}>
+            <p className={classes.rData}>Bs</p>
           </td>
         </tr>
         <tr className={classes.dataRow}>

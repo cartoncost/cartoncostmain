@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Calculation from "./Containers/Calculation/Calculation";
+import Calculation from "./Containers/CalculationNew/CalculationNew";
 import Layout from "./Containers/Hoc/Layout/Layout";
 import Home from "./Containers/Home/Home";
 import Register from "./Containers/Register/Register";

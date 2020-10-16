@@ -1,0 +1,126 @@
+.Calculation {
+  margin-top: 10vw;
+  margin-left: 0;
+  margin-right: 0;
+}
+.Align {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.calButton {
+  position: absolute;
+  margin-top: 7.0138888888vw;
+  margin-bottom: 7.0138888888vw;
+  left: 45%;
+}
+.Table {
+  width: 100vw;
+  min-width: 800px;
+  background-color: #ffffff;
+  border-spacing: 1.25vw;
+  padding-left: 6.597222222vw;
+  padding-right: 6.597222222vw;
+}
+.TableHead {
+  width: 100vw;
+  min-width: 800px;
+  background-color: #efefef;
+  border-spacing: 1.25vw;
+  padding-left: 6.597222222vw;
+  padding-right: 6.597222222vw;
+}
+.data {
+  border: 0.0347222222vw solid rgba(153, 153, 153, 0.4);
+  background: #ffffff;
+  box-sizing: border-box;
+  max-width: 12.9861111vw;
+  width: 12.9861111vw;
+  margin: 0;
+  padding: 0vw 0px 0px 0vw;
+  font-size: 1.1111111111vw;
+  border-radius: 0.277777777vw;
+}
+
+th {
+  font-size: 1.25vw;
+  font-family: "Roboto";
+  font-weight: 400;
+  color: #00000063;
+  text-align: left;
+  margin: 0%;
+  max-width: 12.9861111vw;
+  width: 12.9861111vw;
+}
+
+.tableData {
+  padding: 0;
+  margin: 0;
+  color: #000000;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.111111111vw;
+  padding-left: 1.666666666vw;
+}
+
+td {
+  text-align: left;
+  max-width: 12.9861111vw;
+  width: 12.9861111vw;
+  height: 3.3333333333vw;
+  vertical-align: middle;
+  position: relative;
+}
+.headTh {
+  margin-top: 0;
+  padding: 0;
+  text-align: left;
+  max-width: 12.9861111vw;
+  width: 12.9861111vw;
+  vertical-align: middle;
+}
+.hdata {
+  border: 0;
+  background: #efefef;
+  box-sizing: border-box;
+  max-width: 12.9861111vw;
+  width: 12.9861111vw;
+  margin: 0;
+  padding: 0vw 0px 0px 0vw;
+  font-size: 1.1111111111vw;
+  border-radius: 0.277777777vw;
+}
+.htableData {
+  padding: 0;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.39);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.111111111vw;
+  padding-left: 1.666666666vw;
+}
+.rdata {
+  color: transparent;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+.innerText {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 12.9861111vw;
+  left: 0;
+  right: 0;
+  resize: none;
+  font-size: 14px;
+  border: none;
+}
+body {
+  background-color: white;
+}

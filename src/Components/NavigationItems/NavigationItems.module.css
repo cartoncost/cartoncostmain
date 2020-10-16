@@ -28,4 +28,5 @@ button {
   border: unset;
   box-shadow: unset;
   align-items: center;
+  cursor: pointer;
 }

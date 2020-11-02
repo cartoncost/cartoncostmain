@@ -4,8 +4,10 @@ import Banner from "../Home/Banner/Banner";
 import Aux from "../Hoc/Auxilary";
 import RightPanel from "./RightPanel/RightPanel";
 import LeftPanel from "./LeftPanel/LeftPanel";
+import { withRouter } from "react-router-dom";
 
 const Register = (props) => {
+
   return (
     <Aux classes={classes.Register}>
       <div
@@ -15,16 +17,20 @@ const Register = (props) => {
         <Banner />
       </div>
       <div className={classes.Regi}>
+        <Aux classes={classes.LeftPanel}>
         <LeftPanel />
-        <Aux className="mobileview">
+        </Aux>
+        <Aux classes="mobileview">
           <br />
           <br />
           <br />
         </Aux>
+        <Aux classes={classes.RightPanel}>
         <RightPanel />
+        </Aux>
       </div>
     </Aux>
   );
 };
 
-export default Register;
+export default withRouter(Register);

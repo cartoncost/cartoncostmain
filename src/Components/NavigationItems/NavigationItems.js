@@ -18,7 +18,10 @@ const NavigationItems = () => {
       <NavigationItem link="/signin" className={classes.NavItem}>
         Sign In
       </NavigationItem>
+      <NavigationItem link="/register" className={classes.NavItem}>
       <TrialButton>Try for free</TrialButton>
+      </NavigationItem>
+      
     </ul>
   );
 };

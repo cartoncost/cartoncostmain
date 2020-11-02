@@ -2,14 +2,13 @@ import React from "react";
 import RegistrationForm from "../RegistrationForm/RegistrationForm";
 import classes from "./RightPanel.module.css";
 import {
-  makeStyles,
-  Checkbox,
-  FormControlLabel,
+
   Avatar,
 } from "@material-ui/core";
 import Aux from "../../Hoc/Auxilary";
 
-const RightPanel = () => {
+const RightPanel = (props) => {
+  console.log(props)
   return (
     <Aux classes={classes.RightPanel}>
       <h3>Register a free single-user account</h3>
@@ -17,7 +16,10 @@ const RightPanel = () => {
       <Avatar
         alt="Remy Sharp"
         src="/static/images/avatar/1.jpg"
-        style={{ height: "5.69444444444vw", width: "5.69444444444vw" }}
+        style={{ height: "5.69444444444vw",
+         width: "5.69444444444vw",
+         marginLeft:"auto",
+         marginRight:"auto"}}
       />
       <RegistrationForm />
     </Aux>

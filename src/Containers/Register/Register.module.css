@@ -16,12 +16,19 @@
 .Regi {
   position: relative;
   margin-top: 4.72222222vw;
-  display: flex;
+  /* display: flex; */
 }
 .mobileview {
   display: none;
 }
-
+.LeftPanel {
+  float: left;
+  width: 21.92vw;
+  margin-right: 9.027777vw;
+}
+.RigthPanel {
+  float: right;
+}
 @media (max-width: 600px) {
   .Banner {
     width: 90vw;
@@ -34,5 +41,8 @@
   }
   .mobileview {
     display: contents;
+  }
+  .LeftPanel {
+    width: 80%;
   }
 }

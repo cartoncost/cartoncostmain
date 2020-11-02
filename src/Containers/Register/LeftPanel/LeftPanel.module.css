@@ -1,4 +1,20 @@
 .LeftPanel {
-  width: "21.52777777vw";
   background: rgba(122, 145, 134, 0.05);
+
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .desktopView {
+    display: none;
+  }
+  .link {
+    text-decoration: none;
+    color: white;
+  }
+}
+@media (min-width: 601px) {
+  .Mobile {
+    display: None;
+  }
 }

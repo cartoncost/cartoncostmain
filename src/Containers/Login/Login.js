@@ -1,7 +1,6 @@
 import {Header,Grid,Icon,Form,Segment, Button,Message } from 'semantic-ui-react'
 import React, { Component } from 'react'
 import firebase from '../../Firebase'
-import Axios from 'axios'
 
 
 export class Login extends Component {

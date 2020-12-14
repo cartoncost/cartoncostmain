@@ -3,7 +3,7 @@ import classes from "./Calculation.module.css";
 import { makeStyles, Switch } from "@material-ui/core";
 import { blue } from '@material-ui/core/colors';
 import FefcoImage from './fefcoImage';
-import FluteCalc from './FluteCalc';
+import FluteCalc from './FluteCalcold';
 
 
 const useStyle = makeStyles((theme) => ({
@@ -25,7 +25,7 @@ const useStyle = makeStyles((theme) => ({
 
 
 class CalculationNew extends Component {
-  gsm={
+gsm={
     3:{
       10:[200,200,140],
       9:[250,150,120],
@@ -581,7 +581,7 @@ calcualtePaperWeight=(BoxQuality)=>{
       )
       const ply=this.ply.map(el=><option key={el} value={el}>{el} Ply</option>
         )
-        const BoxQuality=this.BoxQuality.map(el=>{
+      const BoxQuality=this.BoxQuality.map(el=>{
         if(this.state.ply==="3" )
         {
 

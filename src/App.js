@@ -2,7 +2,8 @@ import { Route, Switch } from "react-router-dom";
 import React, { Component } from "react";
 import "./App.css";
 import UserInterface from "./Containers/Admin/UserInterface";
-import Calculation from "./Containers/CalculationNew/CalculationNew";
+import Calculation from "./Containers/CalculationNew/calculation";
+import Calculationold from "./Containers/CalculationNew/CalculationNew";
 import Layout from "./Containers/Hoc/Layout/Layout";
 import Home from "./Containers/Home/Home";
 import Register from "./Containers/Register/Register";
@@ -24,6 +25,7 @@ class App extends Component {
       <Route path="/register" component={Register} exact/>
       <Route path="/signin" component={Login} exact/>
       <Route path="/contact" component={Contactus} exact/>
+      <Route path="/calculate" component={Calculation} exact/>
     </Switch>
 </Layout>
 

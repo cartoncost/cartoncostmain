@@ -11,6 +11,8 @@ import {calcualtePaperWeight} from './InnerValues/calPaperweight'
 import {eCTFinalCalc} from './ECTCalculation/ECTFinalCalc'
 import {functionValues} from './InnerValues/functionValues'
 import CalculationResult from './CalculationResult/CalculationResult'
+import Aux from '../Hoc/Auxilary'
+import classes from './Calculation.module.css'
 
 export class calculation extends Component {
     state={
@@ -85,7 +87,6 @@ export class calculation extends Component {
     }
 
     render() {
-        console.log(this.state)
         let Fefcoarr=options(fefcovalue)
         let plyArr=options(ply)
         let BoxQual=[]
@@ -205,7 +206,9 @@ export class calculation extends Component {
         </>
         }
     return (
-        <div style={{marginTop:"150px",marginRight:"5vw",marginLeft:"5vw"}}>
+
+        <div className={classes.Calculation}>
+          <div className={classes.CalculationInner}>
         <Form onSubmit={this.onSubmitHandler}>
         <Form.Group widths='equal'>
         <Form.Field
@@ -224,6 +227,17 @@ export class calculation extends Component {
             name="ply"
             onChange={this.handleDropDownChange}
           />
+        <Form.Field
+            control={Select}
+            label='Bursting Strength'
+            options={BoxQual}
+            placeholder='Bursting Strength'
+            name="BoxQuality"
+            onChange={this.handleDropDownChange}
+          />
+        </Form.Group>
+
+        <Form.Group widths='equal'>
           <Form.Field
             control={Input}
             label='Length'
@@ -248,14 +262,7 @@ export class calculation extends Component {
             value={this.state.sheigth}
             onChange={this.handleInputChange}
           />
-          <Form.Field
-            control={Select}
-            label='Bursting Strength'
-            options={BoxQual}
-            placeholder='Bursting Strength'
-            name="BoxQuality"
-            onChange={this.handleDropDownChange}
-          />
+
         </Form.Group>
         
         {FluteCalc}
@@ -269,6 +276,7 @@ export class calculation extends Component {
         {img}
 
         {this.state.submitted?<CalculationResult {...this.state}/>:null}
+        </div>
             </div>
         )
     }

@@ -12,12 +12,11 @@ import Contactus from "./Containers/Contactus/Contactus";
 
 
 class App extends Component {
-  state={
 
-  }
   render(){
   return (
     <div className="App">
+    
 
 <Layout>
     <Switch>
